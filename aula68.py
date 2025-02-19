@@ -10,6 +10,7 @@ def escopo():
 
 x = 1
 def escopo():
+  global x # Add global x - declaramos q a variável x é global, logo, tudo que for modificado nessa variável terá impacto em todas variáveis x (dentro e fora)
   print(x) #Neste caso, o x utilizará do valor fora da Def, isso pode
 
 
